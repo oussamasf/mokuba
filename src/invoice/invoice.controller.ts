@@ -25,6 +25,11 @@ export class InvoiceController {
     return this.invoiceService.findAll();
   }
 
+  @Get('pay')
+  pay() {
+    return this.invoiceService.pay();
+  }
+
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.invoiceService.findOne(+id);
