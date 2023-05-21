@@ -12,6 +12,10 @@ export class InvoiceService {
     return `This action returns all invoice`;
   }
 
+  pay() {
+    return `This action pay all invoice`;
+  }
+
   findOne(id: number) {
     return `This action returns a #${id} invoice`;
   }
