@@ -39,3 +39,11 @@ The script `./bash/staging.sh` automates the process of checking and pulling fro
 ### Usage
 
 Execute the script `make checkout` using the following command
+
+## Git commit with right format
+
+The script `./bash/commit.sh` set the format of the commit message into targated branch in a Git repository.
+
+### Usage
+
+Execute the script `make commit` using the following command , don't forget to add file into staging area of git
